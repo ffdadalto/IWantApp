@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mrb2Je956xjrSkMpC1bASWNVURBjYPACZEGFt4SR8TJ3PWE/Kzw+ceyO8EV+T+qH08bloike2V5ahv7j7iXkSA==",
+  "dgSpecHash": "VZpia/g6oFMEdXgrAvGQvJxyWboAdJdQ0Wy0JhKxHIcK5DNxPKKc23S0ZnBiK92f506jI6eHTnkYYXZQ3F566g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dadalto\\Source\\Repos\\IWantApp\\IWantApp.csproj",
+  "projectFilePath": "C:\\Users\\Dadalto\\source\\repos\\IWantApp\\IWantApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dadalto\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dadalto\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
