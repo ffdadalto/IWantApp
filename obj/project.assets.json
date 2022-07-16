@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dadalto\\source\\repos\\IWantApp.csproj",
+      "projectUniqueName": "C:\\Users\\Dadalto\\Source\\Repos\\IWantApp\\IWantApp.csproj",
       "projectName": "IWantApp",
-      "projectPath": "C:\\Users\\Dadalto\\source\\repos\\IWantApp.csproj",
+      "projectPath": "C:\\Users\\Dadalto\\Source\\Repos\\IWantApp\\IWantApp.csproj",
       "packagesPath": "C:\\Users\\Dadalto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dadalto\\source\\repos\\obj\\",
+      "outputPath": "C:\\Users\\Dadalto\\Source\\Repos\\IWantApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dadalto\\AppData\\Roaming\\NuGet\\NuGet.Config",
