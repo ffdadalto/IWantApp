@@ -11,7 +11,7 @@
         "projectName": "IWantApp",
         "projectPath": "C:\\Users\\Dadalto\\source\\repos\\IWantApp\\IWantApp.csproj",
         "packagesPath": "C:\\Users\\Dadalto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dadalto\\Source\\Repos\\IWantApp\\obj\\",
+        "outputPath": "C:\\Users\\Dadalto\\source\\repos\\IWantApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dadalto\\AppData\\Roaming\\NuGet\\NuGet.Config",

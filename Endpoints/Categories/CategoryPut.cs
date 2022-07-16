@@ -6,13 +6,16 @@ namespace IWantApp.Endpoints.Categories;
 
 public class CategoryPut
 {
-    public static string Template => "/categories/{id}";
+    public static string Template => "/category/{id}";
     public static string[] Methods => new string[] { HttpMethod.Put.ToString() };
     public static Delegate Handle => Action;
 
     public static IResult Action([FromRoute] int id, CategoryRequest categoryRequest, ApplicationDbContext context)
     {
         var category = context.Categories.Where(c => c.Id == id).FirstOrDefault();
+
+        if (category == null)
+            return Results.NotFound();
 
         category.Name = categoryRequest.Name;
         category.Active = categoryRequest.Active;
@@ -21,6 +24,13 @@ public class CategoryPut
         
         context.SaveChanges();
 
-        return Results.Ok(category);
+        var response = new CategoryResponse
+        {
+            Id = category.Id,
+            Name = category.Name,
+            Active = category.Active
+        };
+
+        return Results.Ok(response);
     }
 }
