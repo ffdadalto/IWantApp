@@ -11,23 +11,15 @@ public class CategoryPost
 
     public static IResult Action(CategoryRequest categoryRequest, ApplicationDbContext context)
     {
-        var category = new Category
-        {
-            Name = categoryRequest.Name,
-            CreatedBy = "UsuarioTeste",
-            CreatedOn = DateTime.Now,
-            EditedBy = "UsuarioTeste",
-            EditedOn = DateTime.Now
-        };
+        var category = new Category(categoryRequest.Name);
+
+        if (!category.IsValid)
+            return Results.BadRequest(category.Notifications);
+
         context.Categories.Add(category);
         context.SaveChanges();
 
-        var response = new CategoryResponse
-        {
-            Id = category.Id,
-            Name = category.Name,
-            Active = category.Active
-        };
+        var response = new CategoryResponse(category.Id, category.Name, category.Active);
 
         return Results.Created($"/categories/{response.Id}", response);
     }

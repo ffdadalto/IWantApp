@@ -113,3 +113,4 @@ C:\Users\Dadalto\Source\Repos\IWantApp\obj\Debug\net6.0\refint\IWantApp.dll
 C:\Users\Dadalto\Source\Repos\IWantApp\obj\Debug\net6.0\IWantApp.pdb
 C:\Users\Dadalto\Source\Repos\IWantApp\obj\Debug\net6.0\IWantApp.genruntimeconfig.cache
 C:\Users\Dadalto\Source\Repos\IWantApp\obj\Debug\net6.0\ref\IWantApp.dll
+C:\Users\Dadalto\source\repos\IWantApp\bin\Debug\net6.0\Flunt.dll

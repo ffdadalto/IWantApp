@@ -16,12 +16,7 @@ public class CategoryGet
         if(category == null)
             return Results.NotFound();
 
-        var response = new CategoryResponse
-        {
-            Id = category.Id,
-            Name = category.Name,
-            Active = category.Active
-        };
+        var response = new CategoryResponse(category.Id, category.Name, category.Active);        
 
         return Results.Ok(response);
     }
