@@ -9,7 +9,8 @@ public class Category : Entity
     public Category(string name)
     {
         var contract = new Contract<Category>()
-            .IsNotNullOrEmpty(name, "Name");
+            .IsNotNullOrEmpty(name, "Name")
+            .IsGreaterOrEqualsThan(name, 3, "Name");
 
         AddNotifications(contract);
 
