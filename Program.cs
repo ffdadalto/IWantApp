@@ -39,7 +39,7 @@ app.MapMethods(CategoryDelete.Template, CategoryDelete.Methods, CategoryDelete.H
 
 // Employee
 app.MapMethods(EmployeePost.Template, EmployeePost.Methods, EmployeePost.Handle);
-
+app.MapMethods(EmployeeGetAll.Template, EmployeeGetAll.Methods, EmployeeGetAll.Handle);
 
 app.Run();
 
